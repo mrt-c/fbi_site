@@ -7,7 +7,16 @@ header{
     width: 100%;
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 .fbi_logo{
     width: 100px;
+}
+.nav{
+    margin: 10px;
+    text-decoration: none;
+}
+.nav:hover{
+text-decoration: underline;
+color: bisque;
 }
