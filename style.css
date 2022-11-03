@@ -1,0 +1,13 @@
+header{
+    background-color: black;
+    height: 100px;
+    display: flex;
+}
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.fbi_logo{
+    width: 100px;
+}
