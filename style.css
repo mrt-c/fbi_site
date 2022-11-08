@@ -17,7 +17,8 @@ nav {
   text-decoration: none;
   color: white;
 }
-.nav:hover {
+.nav:hover,
+.activ_link {
   text-decoration: underline;
   color: bisque;
 }
@@ -25,10 +26,12 @@ main {
   background: url(img/main_img.jpg) no-repeat center;
   height: 700px;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 main {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .mainall {
   position: relative;
@@ -36,28 +39,28 @@ main {
   display: flex;
   flex-direction: column;
 }
-input{
-    background-color: transparent;
+input {
+  background-color: transparent;
 }
-.button{
-   background-color: bisque;
-   height: 35px;
-   width: 100px;
-   border-radius: 10px;
-   position: relative;
-   left: 80px;
+.button {
+  background-color: bisque;
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  position: relative;
+  left: 80px;
 }
-.button:hover{
-    cursor: pointer;
-    background-color: rgb(237, 202, 159);
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(237, 202, 159);
 }
+.login {
+  position: relative;
+  left: 26px;
+}
+.login,
+.password,
 label {
-    color: bisque;
-}
-.login{
-    position: relative;
-left: 26px;
-}
-.button ,.login ,.password{
-    margin: 5px 0;
+  margin: 5px 0;
+  color: bisque;
 }
