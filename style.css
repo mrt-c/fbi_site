@@ -33,10 +33,6 @@ main {
   display: flex;
   justify-content: center;
 }
-main {
-  display: flex;
-  justify-content: center;
-}
 .mainall {
   position: relative;
   top: 500px;

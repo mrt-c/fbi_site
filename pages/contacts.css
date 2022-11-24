@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    height: 100px;
+    display: flex;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .fbi_logo {
+    width: 100px;
+  }
+  .nav {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .nav:hover,
+  .activ_link {
+    text-decoration: underline;
+    color: bisque;
+  }
+  main{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  input{
+    background-color: #f0baa6;
+    margin: 5px 0;
+  }
+  .NameInput{
+    margin: 10px 0;
+  }
+  .MoreInformation{
+    height: 100px;
+  }
+  form{
+    margin: 10px 0 0;
+    border:1px solid black;
+  }
+  .SubmitButton{
+    width: 100px;
+    height: 45px;
+    background-color: #f2a74f;
+    border-radius: 15px;
+  }
+  .SubmitButton:hover{
+    background-color: rgb(220, 126, 11);
+  }
+  .OurSitesWrapper{
+    display: flex;
+    
+  }
+  .SitesImg{
+    height: 50px;
+    width: 50px;
+  }

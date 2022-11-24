@@ -1,5 +1,6 @@
 *{
-    margin: 0 0;
+    margin: 0;
+    padding: 0;
 }
 header {
   background-color: black;
@@ -43,12 +44,14 @@ h1{
 }
 h2{
     color: blue;
+    margin: 10px;
 }
 .contentwrapper{
     width: 250px;
 }
 .contentimg{
     width: 250px;
+    height: 170px;
 }
 .all{
     width: 800px;
