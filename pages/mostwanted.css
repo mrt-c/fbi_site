@@ -46,7 +46,8 @@ header {
   .wrapper{
     display: flex;
     flex-wrap: wrap;
-    width: 80vw;
+    width: 100vw;
+    justify-content: center;
   }
   .text1{
 color: brown;
