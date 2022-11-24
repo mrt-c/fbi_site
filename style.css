@@ -35,7 +35,7 @@ main {
 }
 .mainall {
   position: relative;
-  top: 90vh;
+  top: 500px;
   display: flex;
   flex-direction: column;
 }
