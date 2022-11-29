@@ -58,7 +58,8 @@ header {
   }
   .OurSitesWrapper{
     display: flex;
-    
+    justify-content: space-evenly;
+    width: 70vw;
   }
   .SitesImg{
     height: 50px;
@@ -72,7 +73,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
   }
   .LinkWrapper:hover{
     background-color: aquamarine;
