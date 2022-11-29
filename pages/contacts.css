@@ -42,6 +42,8 @@ header {
   .MoreInformation{
     height: 150px;
     width: 225px;
+    background-color: #f0baa6;
+    border: black solid 1px;
   }
   form{
     margin: 10px 0 0;
