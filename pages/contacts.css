@@ -40,7 +40,8 @@ header {
     margin: 10px 0;
   }
   .MoreInformation{
-    height: 100px;
+    height: 150px;
+    width: 225px;
   }
   form{
     margin: 10px 0 0;
@@ -63,3 +64,35 @@ header {
     height: 50px;
     width: 50px;
   }
+  .LinkWrapper{
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+  }
+  .LinkWrapper:hover{
+    background-color: aquamarine;
+    scale: 1.5;
+  }
+  footer{
+    background-color: #6c6d6f;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.oursites{
+    width: 50px;
+    height: 50px;
+    margin: 0 40px 0 0;
+}
+.oursites:hover{
+    scale: 1.5;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+}
