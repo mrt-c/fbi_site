@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: black;
+  height: 100px;
+  display: flex;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.fbi_logo {
+  width: 100px;
+}
+.nav {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+.nav:hover,
+.activ_link {
+  text-decoration: underline;
+  color: bisque;
+}
+main {
+  background: url(img/main_img.jpg) no-repeat center;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.mainall {
+  position: relative;
+  top: 500px;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  background-color: transparent;
+}
+.button {
+  background-color: bisque;
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  position: relative;
+  left: 80px;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(237, 202, 159);
+}
+.login {
+  position: relative;
+  left: 26px;
+}
+.login,
+.password,
+label {
+  margin: 5px 0;
+  color: bisque;
+}

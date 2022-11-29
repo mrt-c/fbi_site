@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    height: 100px;
+    display: flex;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .fbi_logo {
+    width: 100px;
+  }
+  .nav {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .nav:hover,
+  .activ_link {
+    text-decoration: underline;
+    color: bisque;
+  }
+  main{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  input{
+    background-color: #f0baa6;
+    margin: 5px 0;
+  }
+  .NameInput{
+    margin: 10px 0;
+  }
+  .MoreInformation{
+    height: 150px;
+    width: 225px;
+    background-color: #f0baa6;
+    border: black solid 1px;
+  }
+  form{
+    margin: 10px 0 0;
+    border:1px solid black;
+  }
+  .SubmitButton{
+    width: 100px;
+    height: 45px;
+    background-color: #f2a74f;
+    border-radius: 15px;
+  }
+  .SubmitButton:hover{
+    background-color: rgb(220, 126, 11);
+  }
+  .OurSitesWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vw;
+    margin:100px 0 50px ;
+  }
+  .SitesImg{
+    height: 50px;
+    width: 50px;
+  }
+  .LinkWrapper{
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .LinkWrapper:hover{
+    background-color: aquamarine;
+    scale: 1.5;
+  }
+  footer{
+    background-color: #6c6d6f;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.oursites{
+    width: 50px;
+    height: 50px;
+    margin: 0 40px 0 0;
+}
+.oursites:hover{
+    scale: 1.5;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+}
